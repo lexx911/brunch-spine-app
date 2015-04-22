@@ -9,7 +9,7 @@ config =
 	routes: 
 		'/portal/api/*': 'http://localhost:8080'
 
-exports.startServer = (port, path, callback) ->
+module.exports = (port, path, callback) ->
 	app = express()
 	app.use config.base, express.static(path)
 	app.use errorHandler()

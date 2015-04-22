@@ -1,6 +1,6 @@
 exports.config =
   # See docs at https://github.com/brunch/brunch/blob/stable/docs/config.md 
-  sourceMaps: false
+  sourceMaps: true
   paths:
     public: 'target/public'
     #watched: ['app', 'test', 'vendor']

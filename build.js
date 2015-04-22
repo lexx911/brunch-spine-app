@@ -26,7 +26,7 @@ if (os.type() == "Darwin") {
 do_exec('npm install .', function(){
 	do_exec('bower install', function(){
 		console.log('compiling app');
-		require("brunch").build({production:true}, function(){
+		require("brunch").build('.', {production:true}, function(){
 			console.log('done.');
 		});
 	});
