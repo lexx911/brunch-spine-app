@@ -277,8 +277,8 @@ class Model extends Module
 
   @idCounter: 1
 
-  @uid: (prefix) ->
-    uid = @idCounter++
+  @uid: (prefix = 'cid-') ->
+    uid = prefix + @idCounter++
     uid = @uid() if @exists(uid)
     uid
 
