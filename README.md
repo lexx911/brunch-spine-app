@@ -81,5 +81,5 @@ This all will generate `target/public/` (by default) directory when `brunch buil
 
 ## License
 
-The license is [public domain](http://creativecommons.org/publicdomain/zero/1.0/).
-Use it however you want.
+The license is [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
+
